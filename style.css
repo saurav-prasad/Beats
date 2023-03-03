@@ -1,0 +1,436 @@
+* {
+    text-align: left;
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    padding: 0px 12vw;
+    background-color: rgb(15 15 16);
+}
+
+#arrow {
+    position: fixed;
+    right: 17px;
+    bottom: 17px;
+    width: 32px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation bar */
+nav {
+    position: relative;
+    padding-top: 27px;
+    justify-content: space-between;
+}
+
+nav ul {
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 3px;
+    padding: 5px 12px;
+    font-size: 13px;
+}
+
+#shopOption {
+    color: rgb(194 194 195);
+    padding: 9px 32px;
+    border-radius: 7px;
+    border-top: 2px solid rgb(78 78 79);
+    border-left: 2px solid rgb(78 78 79);
+    background-color: rgb(30 30 33);
+}
+
+#mainImg {
+    position: absolute;
+    width: 16rem;
+    top: -170px;
+}
+
+/* first section */
+.firstSection {
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.f1 {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#onEarImg {
+    margin-left: 10%;
+    width: 13rem;
+    margin-bottom: 10px;
+
+}
+
+.f1 h1 {
+    margin-bottom: 25px;
+}
+
+.f2 {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#overview {
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+
+#para {
+    font-weight: 400;
+    margin-bottom: 15px;
+    width: 72%;
+    font-size: 14px;
+}
+
+.f2 p {
+
+    margin: 5px 0;
+    text-align: left;
+    font-size: 10px;
+}
+
+.cart {
+    padding: 12px 17px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(30 30 33);
+}
+
+#cartImg {
+    width: 13px;
+}
+
+.cart span,
+.cart img {
+    padding: 0px 7px;
+    font-size: 14px;
+}
+
+/* second section */
+.secondSection {
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.secondSection img {
+    width: 5rem;
+}
+
+/* fourth section */
+.fourthSection {
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthSection h1 {
+    font-weight: 400;
+    color: rgb(47 47 53);
+    font-size: 3.45rem;
+    font-family: sans-serif;
+}
+
+.specs {
+    width: 90%;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.features {
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box {
+    width: 100%;
+    margin-bottom: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.box img {
+    margin-bottom: 5px;
+    width: 0.75rem;
+}
+
+.box span {
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.featuresDesc {
+    font-weight: 400;
+}
+
+.featuresName {
+    font-weight: bolder;
+}
+
+#specsImg {
+    width: 25rem;
+}
+
+.featuresRight {
+    padding-left: 36px;
+}
+
+/* fifth section */
+.fifthSection {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.fifthSection h1 {
+    font-weight: 400;
+    color: rgb(47 47 53);
+    font-size: 3.45rem;
+    font-family: sans-serif;
+}
+
+.case {
+    margin-top: 55px;
+    justify-content: center;
+}
+
+#caseImg {
+    margin-right: 28px;
+    width: 44%;
+}
+
+.caseSection {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.caseSection p {
+    margin-bottom: 27px;
+    font-weight: 370;
+}
+
+.moreInfo {
+    background-color: rgb(30 30 33);
+    padding: 14px 22px;
+    border-radius: 10px;
+}
+
+.moreInfo img {
+    margin-right: 20px;
+}
+
+.moreInfo img,
+.moreInfo span {}
+
+/* sixth section */
+.sixthSection {
+    border-radius: 22px;
+    background-color: rgb(24 26 27);
+    padding: 29px 53px;
+    margin-top: 95px;
+    justify-content: center;
+}
+
+.buy {
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buy h1 {
+
+    font-size: 1.45rem;
+}
+
+.buy p {
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+#buyNowImg {
+    width: 50%;
+}
+
+.buyBox {
+    align-items: center;
+    padding: 13px 19px;
+    border-radius: 10px;
+    background-color: rgb(0 0 0);
+    margin-top: 22px;
+}
+
+.buyBox img {
+    width: 1.1rem;
+    margin-right: 13px;
+}
+
+.buyBox span {}
+
+
+/* seventh section */
+.seventhSection {
+    margin-top: 95px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seventhSection h1 {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(47 47 53);
+    font-size: 3.45rem;
+    font-family: sans-serif;
+
+}
+
+.styleBoxes {
+    margin-top: 90px;
+    display: grid;
+    grid-template-rows: repeat(3, 215px);
+    grid-template-columns: repeat(2, 200px);
+}
+
+.styleBox {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24 26 27);
+    padding: 10px 20px;
+    width: 120px;
+    height: 131px;
+    border-radius: 10px;
+    justify-content: end;
+}
+
+.styleBoxDetail {
+    margin-top: 75px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.styleBoxDetail img {
+    background-color: rgb(10 10 11);
+    border-radius: 10px;
+    padding: 10px;
+    width: 15px;
+
+}
+
+.styleSpan {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.styleName {}
+
+.styleModel {
+    font-weight: 200;
+}
+
+.styleImg {
+
+    width: 52%;
+    position: absolute;
+    top: -42px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-top: 18px;
+}
+
+.footer1 {
+    height: 100%;
+}
+
+.footer2 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer2 h1 {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+
+.footer2 ul {
+    list-style: none;
+}
+
+.footer2 li {
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.footer4 {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subscribe {
+    margin-bottom: 26px;
+    background-color: rgb(24 26 27);
+    border-radius: 10px;
+    padding: 6px 10px;
+    justify-content: space-between;
+}
+
+#subscribeEmail {
+    color: rgb(118 118 118);
+    margin-right: 3rem;
+    font-weight: 450;
+}
+
+.subscribe div {
+    padding: 9px 24px;
+    background-color: rgb(10 10 11);
+    border-radius: 10px;
+}
+
+.subscribe div img {
+    width: 1rem;
+}
+
+.subscribe div span {
+    margin-left: 13px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.social {}
+
+.social img {
+    margin-right: 12px;
+    width: 1.5rem;
+}
+
+@media  screen and (max-width:) {
+    
+}
